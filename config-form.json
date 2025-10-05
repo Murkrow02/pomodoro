@@ -1,29 +1,46 @@
 {
   "form": {
-    "title": "Shopping List",
-    "description": "Configure your widget here",
+    "title": "Pomodoro Timer",
+    "description": "Configure your work/break durations and number of slices/rounds.",
     "fields": [
       {
         "name": {
           "type": "string",
-          "label": "Name",
+          "label": "Title",
           "required": true,
-          "placeholder": "Enter the name of this list"
+          "placeholder": "Pomodoro"
         },
-         "color": {
-          "type": "color",
-          "label": "Color",
+        "work_minutes": {
+          "type": "string",
+          "label": "Work duration (minutes)",
           "required": true,
-          "placeholder": "Choose the color of the title"
+          "placeholder": "25"
         },
-        "items": {
-          "type": "string[]",
-          "label": "Shopping items",
+        "short_break_minutes": {
+          "type": "string",
+          "label": "Short break duration (minutes)",
           "required": true,
-          "placeholder": "Insert your items here"
+          "placeholder": "5"
+        },
+        "long_break_minutes": {
+          "type": "string",
+          "label": "Long break duration (minutes)",
+          "required": true,
+          "placeholder": "15"
+        },
+        "slices_per_round": {
+          "type": "string",
+          "label": "Work slices per round",
+          "required": true,
+          "placeholder": "4"
+        },
+        "rounds": {
+          "type": "string",
+          "label": "Total rounds",
+          "required": true,
+          "placeholder": "1"
         }
       }
     ]
   }
 }
-        
