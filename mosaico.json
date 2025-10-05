@@ -1,0 +1,10 @@
+{
+  "name": "New Project",
+  "description": "A new Mosaico project",
+  "widget_version": "1.0",
+  "software_version": "1.0",
+  "author": "Mosaico Team",
+  "fps": 1,
+  "configurable": false
+}
+        
