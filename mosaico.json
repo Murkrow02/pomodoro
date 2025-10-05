@@ -1,10 +1,10 @@
 {
-  "name": "New Project",
-  "description": "A new Mosaico project",
+  "name": "Pomodoro",
+  "description": "Use the pomodoro widgets for your work or to study better! ",
   "widget_version": "1.0",
   "software_version": "1.0",
-  "author": "Mosaico Team",
-  "fps": 1,
-  "configurable": false
+  "author": "murkrow",
+  "fps": 30,
+  "configurable": true
 }
         
